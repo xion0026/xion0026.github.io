@@ -79,7 +79,7 @@ nav ul a:visited{
 }
 
 nav ul .current,
-nav ul a:hover
+nav ul a:hover,
 nav ul a:focus{
     text-decoration: underline;
 }
