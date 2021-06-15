@@ -31,6 +31,8 @@ nav ul{
 nav ul a{
     color:darkslategrey;
     text-decoration: none;
+    font-size: 1.5rem;
+    /* 1.5 * 16 = 24px */
 }
 
 /* selecting element with id value */
@@ -41,6 +43,14 @@ nav ul a{
     background-size: cover;
 
     color: white;
+    /* 1.25 * 16 = 20px */
+    /* padding: 1em; */
+    /* 1 * 20 = 20px */
+
+    /* viewport based unit */
+    /* width: 100vw; */
+
+    width: 50%;
 }
 
 /* selecting HTML elements with class name */
@@ -62,6 +72,8 @@ article>p{
     line-height: 1.5;
     text-transform: lowercase ;
     text-align: center;
+    /* 1em = 24px */
+
 }
 
 /* Adjacent sibling selector */
