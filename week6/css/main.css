@@ -150,6 +150,7 @@ table td:nth-child(n){
 /* using a formula in :nth-child selector */
 table td:nth-child(2n+1){
     background-color: rgba(0,0,0,.2);
+    
 }
 
 /* css specificity
