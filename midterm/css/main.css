@@ -1,12 +1,30 @@
 body{
     background-color:#aad4cf;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-bottom: 2em;
 }
 
+h1{
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+   
+}
+img{
+    width: 100%;
+    border-left: .5px solid black;
+}
+
+article img{
+    width: 10em;
+    height: 10em;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
 .container{
-
-
-    img{
-        float: left;
-    }
+    background-color:#d8e8e8;
 }
    
