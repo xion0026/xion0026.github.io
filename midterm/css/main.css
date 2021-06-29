@@ -65,7 +65,21 @@ header h1{
      border:0.5px solid black;
      margin: 1em;
  }
- 
+ #fullname{
+    width: 100%;
+    margin-right: 5em;
+ }
+ #youremail{
+    width: 100%;
+    margin-right: 5em;
+ }
+ #yourmessage{
+    width: 100%;
+    height: 300%;
+    margin-right: 5em;
+ }
+     
+ }
  .send{
     text-transform: uppercase;
     margin: 1em;
