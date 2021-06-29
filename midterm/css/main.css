@@ -3,6 +3,7 @@ body{
     margin-left: 10em;
     margin-right: 10em;
     margin-bottom: 2em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header img{
     width: 100%;
@@ -22,17 +23,43 @@ header h1{
 }
 .container{
     background-color:#d8e8e8;
+    margin: 0;
 }
-
-nav li{
+.navagation div{
     display: inline-block;
-    border-right: 1px solid black;
-
+    width: 33%;
+    text-align:center;
+   
 }
+.navagation a{
+    color:black;
+    text-transform:uppercase;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 20px; 
+    
+}
+.navagation-story{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    
+}
+
  article img{
-    width: 10em;
-    height: 10em;
+    width: 8em;
+    height: 9em;
     float: left;
-    margin-right: 1em; 
+    margin-left: .5em; 
+    margin-right: 1em;    
+    margin-bottom: 1.3em; 
+}
+
+ article p{
+     font-size: 16px;
+ }
+
+ .listitem li{
+    font-size: 16px;
+ }
 
    
