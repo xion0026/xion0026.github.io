@@ -61,5 +61,16 @@ header h1{
  .listitem li{
     font-size: 16px;
  }
-
+ .form div{
+     margin: 1em;
+ }
+ .formitem{
+     border:0.5px solid black;
+     margin: 1em;
+ }
+ 
+ .send{
+  
+    margin: 1em;
+ }
    
