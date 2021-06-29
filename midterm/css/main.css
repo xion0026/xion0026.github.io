@@ -20,15 +20,19 @@ header h1{
     left: 570px;
    
 }
-
-article img{
-    width: 10em;
-    height: 10em;
-    float: left;
-    margin-right: 1em;
-    margin-bottom: 1em;
-}
 .container{
     background-color:#d8e8e8;
 }
+
+nav li{
+    display: inline-block;
+    border-right: 1px solid black;
+
+}
+ article img{
+    width: 10em;
+    height: 10em;
+    float: left;
+    margin-right: 1em; 
+
    
