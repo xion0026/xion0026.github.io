@@ -65,19 +65,23 @@ header h1{
      border:0.5px solid black;
      margin: 1em;
  }
+ h2,h3,p{
+    margin: .5em;
+ }
  #fullname{
     width: 100%;
     margin-right: 5em;
+    border-style:none;   
  }
  #youremail{
     width: 100%;
     margin-right: 5em;
+    border-style:none;
  }
  #yourmessage{
     width: 100%;
-    height: 300%;
+    height: 60px;
     margin-right: 5em;
- }
      
  }
  .send{
