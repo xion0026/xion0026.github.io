@@ -4,17 +4,21 @@ body{
     margin-right: 10em;
     margin-bottom: 2em;
 }
-
-h1{
-    position: absolute;
-    text-align: center;
-    color: white;
-    font-size: 30px;
-   
-}
-img{
+header img{
     width: 100%;
     border-left: .5px solid black;
+    background-size: cover;
+    margin:0;
+}
+
+header h1{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    top: 200px;
+    left: 570px;
+   
 }
 
 article img{
