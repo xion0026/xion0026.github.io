@@ -25,12 +25,12 @@ header h1{
     background-color:#d8e8e8;   
 }
 /* navagation's style */
-.navagation div{
+nav div{
     display: inline-block;
     width: 33%;
     text-align:center;   
 }
-.navagation a{
+nav a{
     color:black;
     text-transform:uppercase;
     text-decoration: none;
