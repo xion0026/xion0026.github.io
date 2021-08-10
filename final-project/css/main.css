@@ -47,13 +47,270 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/* font */
+body{
+	font-family: 'Open Sans', sans-serif;
+}
 /* mobile screen */
 @media screen and (max-width: 760px){
-    
-  }
+nav{
+		background-color: #222;
+}
+.logo{ 
+	background-color:#c78c06;
+	margin:0 10px 0 10px ;
+}
+.home{
+	background-color:#c78c06;
+	margin:0 10px 0px 10px ;
+}
+nav li a{
+	text-decoration: none;
+	color: #c78c06;
+	text-align: center;
+   }
+.home a{
+	color: #222;
+}
+nav li{
+	display:block;text-align:center;
+	padding: 10px;
+}
+nav input{
+	width: 90%;
+	height: 25px;
+    border-style:none; 
+}
+nav button{
+	border-color: #c78c06;
+	border-width: 1px;
+	background-color: #222;
+	margin-left: -4px;
+}  
+/* banner */
+.banner{
+	position: relative;
+}
+.welcome{
+	position: absolute;
+	top: 50px;
+	color: white;
+	background-color: #222;
+	opacity: 0.8;
+	height: 300px;
+}
+.banner img{
+	width: 100%;
+	height: 400px;
+}
+.banner h1{
+	font-weight:bolder; 
+	font-size: 60px;
+	margin:30px 0 0 10px;
+}
+.banner a{
+    color:#222 ;
+	padding: 20px;
+	background-color: #c78c06;
+	margin-left: 10px;
+	text-decoration: none;
+}
+.banner i{
+	margin-left: 10px;
+}
+.banner p{
+	margin:10px 0 20px 0;
+}
+/* About Us */
+.about{
+	background-color: #ffe6ac;
+}
+.about-image{
+	padding: 10px;
+}
+h2,
+h3,
+h5,
+p,
+a{
+	padding: 10px;
+}
+h2{
+	font-size: 30px;
+	font-weight:bolder;
+}
+.about img{
+	width: 100%;
+	height: 100%;
+}
+
+/* our services */
+.services h2,
+.services h3{
+	font-weight:bolder; 
+}
+.services h3{
+	font-size: 20px;
+}
+.services{
+	margin: 10px;
+
+}
+.services img{
+	width: 100%;
+}
+.digital,
+.marketing,
+.video,
+.web,
+.print{
+ 	padding-top: 10px;
+}
+.transformation,
+.marketing-content,
+.video-production,
+.web-content,
+.print-content{
+ 	background-color: #ffe6ac;
+ 	height: 170px;
+}
+.services p{
+	margin-bottom: 20px;
+   }
+.services a{
+	color: white;
+	padding: 20px;
+	background-color: #222;
+	margin-left: 10px;
+	text-decoration: none; 
+   }
+.services h2{
+	margin-left: -10px;
+}
 
 
+/* Our Vision */
+}
+.vision{
+	position: relative;
+}
+.vision img{
+	width: 100%;
+	height: 220px;
+}
+.our-vision{
+	position: absolute;
+	top:10px;
+	color: white;
+}
+.our-vision a{
+	color: white;
+	padding: 20px;
+	border: solid #c78c06 1px;
+	background-color: #222;
+	margin-left: 10px;
+	text-decoration: none;
+}
+.our-vision i{
+	margin-left: 10px;
+}
+.our-vision p{
+	margin-bottom: 20px;
+}
+
+/* out team */
+.team{
+	margin: 10px;
+}
+.john,
+.bob{
+	background-color: #ffe6ac;
+}
+.team h5{
+	border-bottom: solid #c78c06 1px;
+	margin-left:5px;
+	margin-right: 5px;
+}
+.team h3{
+	margin-left: 5px;
+	padding-bottom: 0;
+	font-size: 20px;
+}
+.team img{
+	width: 100%;   
+	height: 85%;
+}
+.team h2,
+.team h3,
+.team h5{
+	font-weight:bolder; 
+}
+/* contact us */
+.contact h2,
+.contact h3{
+	font-weight:bolder; 
+}
+.contact h3{
+	font-size: 20px;
+}
+.contact{
+	margin: 10px;
+}
+h5{
+	font-weight:bolder;
+}
+.contact input{
+	width: 100%;
+}
+.send div,
+.formitem input{ 
+	margin-top: 10px;
+}
+.send button{
+	margin-top: 10px;
+	color:#c78c06 ;
+	background-color: #222;
+    border: none;
+}
+#message{
+	width: 100%;
+	height: 80px;
+}
+.contact h2,
+.contact h3{
+    margin-left: -6px;
+}
+
+/* hours of operation */
+.table,
+.table th,
+.table td{
+	border:1px solid #222;
+}
+.table{
+	width: 100%;
+	line-height: 30px;
+}
+.table th{
+	background-color:#ffe6ac ;
+}
+.table td{
+	padding-left: 10px;
+}
+iframe{
+	width: 100%;
+}
+
+/* footer */
+footer{
+	background-color: #222;
+	color: #c78c06;
+	padding:10px;
+	line-height:30px;	
+}
+footer a{
+	color: #c78c06;
+}
 
 /* desktop screen */
 @media screen and (min-width: 760px) and (max-width: 1200px){
