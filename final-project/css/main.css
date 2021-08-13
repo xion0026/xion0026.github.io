@@ -68,7 +68,7 @@ nav li a{
 	text-decoration: none;
 	color: #c78c06;
 	text-align: center;
-   }
+}
 .home a{
 	color: #222;
 }
@@ -97,9 +97,7 @@ nav button{
 	top: 40px;
 	background-color: #222;
 	opacity: 0.8;
-	height: 320px;
-	
-	
+	height: 320px;	
 }
 .banner img{
 	width: 100%;
@@ -178,21 +176,19 @@ h2{
 }
 .services p{
 	margin-bottom: 20px;
-   }
+}
 .services a{
 	color: white;
 	padding: 20px;
 	background-color: #222;
 	margin-left: 10px;
 	text-decoration: none; 
-   }
+}
 .services h2{
 	margin-left: -10px;
 }
 
-
 /* Our Vision */
-}
 .vision{
 	position: relative;
 }
@@ -313,8 +309,44 @@ footer{
 footer a{
 	color: #c78c06;
 }
-
+}
 /* desktop screen */
-@media screen and (min-width: 760px) and (max-width: 1200px){
-    
-  }
+@media screen and (min-width: 760px){
+/* container size */
+.container{
+	max-width: 1200px;
+	align-content: center;
+}
+.navigation{
+	background-color: #222;	
+}
+
+/* banner */
+.banner{
+	position: relative;
+}
+.banner img{
+	width: 100%;
+	height: 400px;
+}
+.welcome{
+	position: absolute;
+	color: white;
+	top: 0;
+	
+	background-color: #222;
+	opacity: 0.8;
+	height: 360px;
+	margin: 20px 30px 20px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+}
