@@ -531,53 +531,64 @@
 		margin-left: 10px;
 	}
 	/* our team */
-	/* use flexbox */
-    .team{
-        margin: 0 50px 0 50px;
+	/* use grid*/
+	.team-content{
+		margin: 20px 50px 0 50px;
 	}
 	.team h2{
 		font-size: 50px;
-		
-		margin: 20px 0 20px 0;
+		font-weight:bolder;
+		margin-left: 50px;
 	}
-	.box{
-		height:600px;
-		margin: 0 auto;
-		display: flex;
-		flex-wrap: wrap;
+	.team-content{
+		display:grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows:repeat(2, 1fr);
+		height: 800px;
 	}
-	.team img,
-	.john,
-	.bob{
-		width: 600px;
-		height: 300px;
+	.item1{
+		grid-column: 1 / 2;
+		grid-row: 1 / 2;
+	}
+	.item2{
+		grid-column: 2 / 3;
+		grid-row: 1 / 2;
 		background-color: #ffe6ac;
 	}
 	.item3{
-		order:1
+		grid-column: 2 / 3;
+		grid-row: 2 / 3;
 	}
-	.team h3,
-	.team h5{
-		font-weight:bolder;
-		margin: 10px 10px 10px 10px;
+	.item4{
+		grid-column: 1 / 2;
+		grid-row: 2 / 3;
+		background-color: #ffe6ac;
 	}
-	.team h3{
+	.team-content img{
+		width: 100%;
+	}
+	.team-content h3{
 		font-size: 35px;
+		font-weight:bolder;
+		margin: 10px 0 10px 10px;
 	}
-	.team h5{
+	.team-content h5{
 		border-bottom: solid #c78c06 1px;
+		margin-left:10px;
+		font-weight:bolder;
 	}
-	.team p{
-		margin-left: 10px;
+	.team-content p{
+		margin: 20px 10px 0 10px;
 	}
 	/* contact us */
-	.contact{
+	/* use flexbox */
+	.contact-content{
 		margin: 0 50px 0 50px;
 	}
 	.contact h2{
 		font-size: 50px;
 		font-weight:bolder;
-		margin: 20px 0 20px 0;
+		margin: 120px 0 20px 0;
 	}
 	.contact h3{
 		font-weight:bolder;
@@ -604,20 +615,20 @@
 		margin: 0 auto;
 		display: flex;
 		flex-wrap: wrap;
+		justify-content:space-between;
 	}
 	.hours2{
 		order:1;
-		width: 1200px;
+		width: 100%;
 	}
 	.send1,
-	.location3,
-	.contact iframe{
-		width: 600px;
+	.location3{
+		flex-basis:calc(49% - 580px);
 		height:400px;
-		margin: 10px 0 70px 0;
+		margin: 10px 0 120px 0;
 	}
 	.contact input{
-		width: 550px;
+		width: 580px;
 	}
 	.send div,
 	.formitem input{ 
@@ -630,7 +641,7 @@
 		border: none;
 	}
 	#message{
-		width: 550px;
+		width: 580px;
 		height: 180px;
 	}
 	/* footer */
@@ -644,15 +655,6 @@
 	}
 	footer a{
 		color: #c78c06;
-	}
-	
-	
-
-		
-	
-
-
-
-
+	}	
 
 	}
