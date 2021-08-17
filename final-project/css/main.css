@@ -418,11 +418,13 @@
 	/* our services */
 	/* use grid */
 	.services-content{
-		margin: 20px 50px 0 50px;
+		margin: 10px 50px 0 50px;
 	}
 	.services h2{
 		font-size: 50px;
-		font-weight:bolder; 
+		font-weight:bolder;
+		margin: 20px 0 10px 50px;
+
 	}
 	.services-content{
 		display:grid;
@@ -538,7 +540,7 @@
 	.team h2{
 		font-size: 50px;
 		font-weight:bolder;
-		margin-left: 50px;
+		margin:20px 0 10px 50px;
 	}
 	.team-content{
 		display:grid;
@@ -588,7 +590,7 @@
 	.contact h2{
 		font-size: 50px;
 		font-weight:bolder;
-		margin: 120px 0 20px 0;
+		margin: 130px 0 20px 0;
 	}
 	.contact h3{
 		font-weight:bolder;
